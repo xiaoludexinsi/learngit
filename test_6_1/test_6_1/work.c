@@ -33,31 +33,31 @@
 //	return 0;
 //}
 
-int main()
-{
-	int arr[4] = { 0 };
-	
-
-	for (int i = 0; i < 4; i++)
-	{
-		scanf("%d", &arr[i]);
-	}
-
-	int Max = addsum(arr);
-	printf("%d", Max);
-
-	return 0;
-}
-
-int addsum(int arr[])
-{
-	int max = arr[0];
-	for (int i = 1; i < 4;i++)
-	{
-		if (arr[i] > max)
-		{
-			max = arr[i];
-		}
-	}
-	return max;
-}
+//int main()
+//{
+//	int arr[4] = { 0 };
+//	
+//
+//	for (int i = 0; i < 4; i++)
+//	{
+//		scanf("%d", &arr[i]);
+//	}
+//
+//	int Max = addsum(arr);
+//	printf("%d", Max);
+//
+//	return 0;
+//}
+//
+//int addsum(int arr[])
+//{
+//	int max = arr[0];
+//	for (int i = 1; i < 4;i++)
+//	{
+//		if (arr[i] > max)
+//		{
+//			max = arr[i];
+//		}
+//	}
+//	return max;
+//}
